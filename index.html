@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="style.css">
+  <title>カルーセルスライダーデモオートバージョン</title>
+</head>
+<body>
+  <h1 class="demo-title">カルーセル　デモサイト</h1>
+  <div class="carousel">
+    <ul class="carousel-area">
+      <!-- 意味的に画像はimgタグで配置してるが、CSSで非表示にする。 -->
+      <li class="carousel-list"><img class="carousel-img" src="img/hamster.jpg" alt="ハムスターの画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="img/sheep.jpg" alt="羊の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="img/turtle.jpg" alt="亀の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="img/bird.jpg" alt="鳥の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="img/lion.jpg" alt="ライオンの画像"></li>
+    </ul>
+    <div class="arow-wrap">
+      <div class="arrow-left">
+        <button class="arrow-btn js-btn-back" type="button"></button>
+      </div>
+      <div class="arrow-right">
+        <button class="arrow-btn js-btn-next" type="button"></button>
+      </div>
+    </div>
+    <div class="pagination">
+      <span class="pagination-circle target"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
