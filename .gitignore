@@ -1,0 +1,25 @@
+# .gitignore
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# IDEs and editors
+.idea/
+*.suo
+*.sln
+*.sw?
+
+# VSCode settings
+.vscode/*
+!.vscode/*.example
+
+# Java class files
+*.class
